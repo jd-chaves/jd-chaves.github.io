@@ -1,0 +1,101 @@
+nav{
+	border-radius : 0 !important;
+	background-color: black !important;
+	margin: 0px;
+}
+
+
+.cosa-menu{
+	padding : 20px; 
+	margin: 0px;
+}
+
+
+
+.image {
+	position: relative;
+	bottom: 20px;
+  	background-image: url("https://static.pexels.com/photos/6482/black-and-white-man-person-hands.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	height: 800px;
+  	opacity: 0.6;
+  	filter: brightness(25%);
+}
+
+.options{
+	display: inline-block;
+	border: 3px solid white;
+	margin: 5px;
+	padding: 15px 10px;
+	
+	
+}
+.container-fluid.centrado{
+	   	position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+.options > a{
+	color: white;
+	font-size: 28px;
+
+}
+.centrar{
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+.redonda{
+	width:300px;
+    height:300px;
+    border-radius:155px;
+    border: 5px solid black;
+}
+.row.datos{
+	font-size: 25px;
+	margin:2px;
+}
+.row{
+	margin: 70px;
+}
+div > h2{
+	margin-left: 100px;
+}
+.materias{
+	font-size: 20px;
+}
+.proyecto{
+	display: inline-block;
+	
+}
+.proyecto > h1{
+	text-align: center;
+}
+.boton{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	background: #E6E6E6;
+	max-width: 130px;
+	margin-bottom:  5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	text-align: justify;
+}
+.row.diferente{
+	align-items: center;
+	text-align: center;
+	margin: 20px 0px;
+	color: white;
+}
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
