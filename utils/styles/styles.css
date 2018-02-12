@@ -15,12 +15,10 @@ nav{
 .image {
 	position: relative;
 	bottom: 20px;
-  	background-image: url("https://static.pexels.com/photos/6482/black-and-white-man-person-hands.jpg");
+  	background-image: url("https://static.pexels.com/photos/378442/pexels-photo-378442.jpeg");
   	background-size: cover;
   	background-position: center;
   	height: 800px;
-  	opacity: 0.6;
-  	filter: brightness(25%);
 }
 
 .options{
@@ -44,7 +42,9 @@ nav{
 	font-size: 28px;
 
 }
+
 .centrar{
+	float: center;
 	text-align: center;
 	margin-bottom: 40px;
 
@@ -66,26 +66,19 @@ nav{
 div > h2{
 	margin-left: 100px;
 }
+div > p{
+	margin-left: 100px;
+}
 .materias{
 	font-size: 20px;
 }
 .proyecto{
-	display: inline-block;
-	
+	display: block;
 }
 .proyecto > h1{
 	text-align: center;
 }
-.boton{
-	font-size: 30px;
-	text-align: center;
-	color: black;
-	background: #E6E6E6;
-	max-width: 130px;
-	margin-bottom:  5px;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 p{
 	text-align: justify;
 }
@@ -99,3 +92,67 @@ p{
   background-color: #333333;
   color: whitesmoke;
 }
+#logo{
+	font-family: "Great Vibes", cursive;
+	font-size: 30px;
+}
+
+
+
+hr.style2 {
+	border-top: 4px solid #8c8b8b;
+	text-align: center;
+}
+hr.style2:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.img-paseo {
+	position: relative;
+	bottom: 20px;
+  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fb/Parque_Ecologico_Loreto_y_Peña_Pobre_Arboles_2.JPG");
+  	background-size: cover;
+  	background-position: center;
+  	height: 300px;
+  	border : 2px solid black;
+}
+.img-festivAndes {
+	position: relative;
+	bottom: 20px;
+  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/eb/Mezipatra_2009_-_Homolution_party_1.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	height: 300px;
+  	border : 2px solid black;
+}
+.img-minas {
+	position: relative;
+	bottom: 20px;
+  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/39/112-1269_IMG.JPG");
+  	background-size: cover;
+  	background-position: center;
+  	height: 300px;
+  	border : 2px solid black;
+}
+.img-2pds {
+	position: relative;
+	bottom: 20px;
+  	background-image: url("https://pixnio.com/free-images/2017/06/08/2017-06-08-15-34-41-900x600.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	height: 300px;
+  	border : 2px solid black;
+}
+
+
+
