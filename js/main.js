@@ -16,6 +16,12 @@ $(".options > a").click(function(e) {
       // Call the scroll function
     goToByScroll(this.id);           
 });
+$("li > a").click(function(e) { 
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll(this.id);           
+});
 }
 $(document).ready(main);
 
