@@ -22,6 +22,12 @@ $("li > a").click(function(e) {
       // Call the scroll function
     goToByScroll(this.id);           
 });
+$('.btn-info').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+    $(this).text("Visto");
+      
+  });
 }
 $(document).ready(main);
 

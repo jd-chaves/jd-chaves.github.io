@@ -57,21 +57,17 @@ nav{
     border: 5px solid black;
 }
 .row.datos{
-	font-size: 25px;
-	margin:2px;
+	
+	margin-left:40px;
 }
-.row{
-	margin: 70px;
-}
+
 div > h2{
 	margin-left: 100px;
 }
 div > p{
 	margin-left: 100px;
 }
-.materias{
-	font-size: 20px;
-}
+
 .proyecto{
 	display: block;
 }
@@ -96,8 +92,13 @@ p{
 	font-family: "Great Vibes", cursive;
 	font-size: 30px;
 }
-
-
+.descripcion{
+	color: white;
+}
+.descripcion > p{
+	padding: 8px;
+	background-color: grey;
+}
 
 hr.style2 {
 	border-top: 4px solid #8c8b8b;
@@ -147,12 +148,38 @@ hr.style2:after {
 .img-2pds {
 	position: relative;
 	bottom: 20px;
-  	background-image: url("https://pixnio.com/free-images/2017/06/08/2017-06-08-15-34-41-900x600.jpg");
+  	background-image: url("http://www.publicdomainpictures.net/pictures/150000/velka/banner-header-tapete-1452601750M7p.jpg");
   	background-size: cover;
   	background-position: center;
   	height: 300px;
   	border : 2px solid black;
-}
 
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
 
 
