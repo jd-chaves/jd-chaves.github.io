@@ -12,37 +12,60 @@
 </head>
 	<body>
 		
-			<nav class="navbar navbar-inverse">
-				<div class="container-fluid">
-					<div class="navbar-header">
-     				 <a class="navbar-brand" href="https://jd-chaves.github.io" id="logo">Juan Diego Ch.</a>
+		<div id="navigation">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="site-logo">
+						<div class="navbar-header">
+     				 <a class="navbar-brand" href="https://jd-chaves.github.io" id="logo">Juan Diego Chaves</a>
    					</div>	
-   					<div style="float:right;">
-   					<ul class="nav navbar-nav">
-     			 		<li><a href="#" id="quienlink"> ¿Quien soy?</a></li>
-     			 		<li><a href="#" id="unilink">Universidad</a></li>	
-     			 		<li><a href="#" id="prolink">Proyectos</a></li>	
-     			 		<li><a href="#" id="skilllink">Habilidades</a></li>	
-     			 		<li><a href="#" id="extralink">Extracurricular</a></li>	
+					</div>
+				</div>
 
-    		 		</ul>	
-   					</div>			 
-    		 		
- 			 	</div>
-			</nav>	
-		
-			<div class="image">
+
+				<div class="col-md-9">
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button  type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="menu">
+						<ul class="nav navbar-nav navbar-right">
+
+							<li class="active"><a href="#"  id="homelink">Home</a></li>
+							<li><a href="#" id="quienlink"> ¿Quien soy?</a></li>	
+     			 		<li ><a href="#" id="prolink">Proyectos</a></li>	
+     			 		<li><a href="#" id="extralink">Extracurricular</a></li>	
+						<li><a href="#" id="gallink">Galeria</a></li>
+						</ul>
+					</div>
+					<!-- /.Navbar-collapse -->
+
+				</div>
 			</div>
+		</div>
+		<!-- /.container -->
+	</nav>
+</div>
+			
+		
+			<div id="home" class="image">
+			
 			<div class="container-fluid centrado">
-				<div><h1 style="color: white;">Bienvenido!</h1></div>
-				
+				<div style="padding-bottom: 110px; max-width: 60%; margin-left: 10%">
+				<div ><h1 style="color: white;">Bienvenido!</h1></div>
+				<h3 style="color: whitesmoke; text-align: justify ">A mi pagina web. Aca encontraras informacion relevante acerma de mi, a lo que me dedico y lo que hago en mi tiempo libre.</h3>
 					<div class="options">
-						<a href="#" id="quienlink">Académica</a>
+						<a href="#" id="quienlink">Empezar</a>
 					</div>
-					<div class ="options">	
-						<a href="#" id="extralink">Extracurricular</a>
-					</div>
-				
+					
+				</div>
+			</div>
 			</div>
 			<section>
 				<div class="container-fluid centrar" id="quien"><h1>¿Quien soy?</h1></div> 
@@ -108,7 +131,7 @@
 				 	
 				 </style>
 				</div>
-				<div class="col-sm-6 materias"> 
+				<div class="col-sm-6 materias" style="padding-left: 40px;"> 
 				<ul>
 					<li>201620_MATE1106_01 - ALGEBRA LINEAL 1 (HONORES)</li>
 					<li>201710_FISI1028_43 - FISICA II</li>
@@ -233,12 +256,11 @@
 			<br>
 			<hr class="style2">
 			<br>
-			<h1 style="text-align: center;">Galeria</h1>
+			<h1 style="text-align: center;" id="gal">Galeria</h1>
 
-			<div id="slideShowImages">
-   				 <img style="" src="images/f1.jpg" alt="Slide 1" />
-   				 <img style="" src="images/f2.jpg" alt="Slide 2" />
-   				 <img style="" src="images/f3.jpg" alt="Slide 2" />
+			<div id="slideShowImages" style="border: 3px solid black ">
+   				 <img  src="images/f2.jpg" alt="Slide 2" />
+   				 <img  src="images/f3.jpg" alt="Slide 2" />
   </div>  
 
 			 <script src="jquery/jquery-3.3.1.min.js"></script>

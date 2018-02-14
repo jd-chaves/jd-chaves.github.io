@@ -1,7 +1,5 @@
 var scrolled=0;
 function main(){
-
-
 var divId = "slideShowImages";
 var tiempo = 5000;
 var fade = 40;
@@ -139,6 +137,10 @@ $('.btn-info').on('click', function() {
     $(this).text("Visto");
       
   });
+$('.navbar-nav>li>a').on('click', function() {
+	'use strict';
+	$('.navbar-collapse').collapse('hide');
+});
 }
 $(document).ready(main);
 
