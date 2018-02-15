@@ -3,11 +3,7 @@
 
 
 function main(){
-//variable para el scroll
-var scrolled=0;
 //el id de la galeria
-var slideShowId = null;
-//el id del div que contiene la galeria
 var divId = "slideShowImages";
 //tiempo entre cambio de imagenes
 var tiempo = 3000;
@@ -59,13 +55,9 @@ var index = 0;
 
 //funcion que inicia la galeria
 function startSlideShow() {
-    slideShowId = setInterval(transition, tiempo);                
+    setInterval(transition, tiempo);                
   }
 
-//funcion que detiene la galeria
-function haltSlideShow() {
-  clearInterval(slideShowId);   
-}
 
 //funcion de transicion para las imagenes de la galeria
 function transition(){
@@ -84,7 +76,7 @@ function transition(){
   var nextSlideOpacity = 0;
   var opacityLevelIncrement = 1 / fade;
   //aca se hace la trnasicion, en cada llamado se cambia la opacidad
-  var fadeActiveSlidesID = setInterval(fadeActiveSlides, fade);
+  fadeActiveSlidesID = setInterval(fadeActiveSlides, fade);
     
 
     //funcion usada en la transicion
@@ -118,7 +110,6 @@ function anchoMax(){
       max = imgs[i].width;
       maxPos = i;
     }
-    console.log(imgs[i].width);
   }
   //el getBoundinClientRect() incluye todo el contenedor
   return imgs[maxPos].getBoundingClientRect().width;
@@ -142,8 +133,8 @@ function altoMax(){
 	//esconde todas las descripciones
 	$(".descripcion").hide();
 	//funcion que hace el scroll al elemento con el id que se pasa por parametro
-	 function goToByScroll(id){	
-	 	//se encuentra el id del elemento
+	function goToByScroll(id){	
+	//se encuentra el id del elemento
     id = id.replace("link", "");
     //el scroll, se resta 60 para que el menu no aparezca sobre el titulo
     $('html,body').animate({
