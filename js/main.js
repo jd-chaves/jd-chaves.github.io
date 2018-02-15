@@ -1,7 +1,7 @@
 var scrolled=0;
 function main(){
 var divId = "slideShowImages";
-var tiempo = 5000;
+var tiempo = 3000;
 var fade = 40;
 var slideShowId = null;
 var fadeActiveSlidesID = null;
@@ -27,8 +27,9 @@ console.log("altoMax: "+_altoMax+"; anchoMax"+_anchoMax);
       imgs[i].style.opacity = 0;
       imgs[i].style.position = "absolute";
       //Para que este en el centro
-      imgs[i].style.top = (_anchoMax - imgs[i].getBoundingClientRect().height) / 2 + "px";   
-      imgs[i].style.left = (_altoMax - imgs[i].getBoundingClientRect().width) / 2 + "px";     
+      imgs[i].style.top = (_altoMax - imgs[i].getBoundingClientRect().height) / 2 + "px";  
+      imgs[i].style.left = (_anchoMax - imgs[i].getBoundingClientRect().width) / 2 + "px"; 
+
       }
 
  //Poner primera imagen visible
@@ -87,7 +88,6 @@ function transition(){
 function anchoMax(){
   var max = 0;
   var maxPos = 0;
-  console.log(imgs);
   for (var i = 0; i < imgs.length; i++) 
   {
     if (imgs[i].width > max) 
