@@ -119,7 +119,7 @@ function altoMax(){
 	 function goToByScroll(id){
     id = id.replace("link", "");
     $('html,body').animate({
-        scrollTop: $("#"+id).offset().top},
+        scrollTop: $("#"+id).offset().top-60},
         'slow');
 }
 
