@@ -4,14 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Juan Diego Chaves">
+  <meta name="description" content="Pagina web personal de Juan Diego Chaves Sanguino">
 	<title>Juan Chaves</title>
+
 	<link rel="stylesheet" href="utils/styles/styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 	<body >
-		<img src="http://www.qygjxz.com/data/out/255/5675404-white-background-wallpaper.png" style="position: fixed; opacity: 0.3" alt="">
+		<img src="http://www.qygjxz.com/data/out/255/5675404-white-background-wallpaper.png" id="fondo" alt="fondo de la pagina con triangulos y fondo blanco">
 		<div id="navigation">
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
@@ -58,13 +61,13 @@
 			
 			<div class="container-fluid centrado">
 				<div style="padding-bottom: 110px; max-width: 60%; margin-left: 10%">
-				<div ><h1 style="color: white;">Bienvenido!</h1></div>
-				<h3 style="color: whitesmoke; text-align: justify ">A mi pagina web. Aca encontraras informacion relevante acerca de mi, a lo que me dedico y lo que hago en mi tiempo libre. Contactame:
-				<ul>
-					<li><p>Facebook: <a href="https://www.facebook.com/juandiego.chavessanguino" style="color: white;">Juan Diego Chaves Sanguino</a></p></li>
-					<li><p>Twitter:<a href="https://twitter.com/JuanDiegoChav13" style="color: white;"> @JuanDiegoChav13</a> </p></li>
+				<div ><h1>Bienvenido!</h1></div>
+				<h3>A mi pagina web. Aca encontraras informacion relevante acerca de mi, a lo que me dedico y lo que hago en mi tiempo libre. Contactame:</h3>
+				<ul style="font-size: 20px">
+					<li><p>Facebook: <a href="https://www.facebook.com/juandiego.chavessanguino" >Juan Diego Chaves Sanguino</a></p></li>
+					<li><p>Twitter:<a href="https://twitter.com/JuanDiegoChav13" > @JuanDiegoChav13</a> </p></li>
 					<li>Correo: chavesjuan2013@gmail.com</li>
-				</ul></h3>
+				</ul>
 
 					<div class="options">
 						<a href="#" id="quienlink">Empezar</a>
@@ -73,7 +76,6 @@
 				</div>
 			</div>
 			</div>
-			<section >
 				<div class="container-fluid centrar" id="quien"><h1>¿Quien soy?</h1></div> 
 			<div class="row">
 				
@@ -104,7 +106,7 @@
 				</div>
 				
 			</div>	
-			</section>
+			
 					
 			
 				
@@ -114,9 +116,9 @@
 			
 		<div style="background-color: rgba(255,0,0,0.5); padding-top: 10px; margin-top: 20px">
 
-			<div><h2 style="margin-left: 0px; padding-left: 40px; background-color: transparent;">Materias que he cursado:</h2></div>
+			<div><h2 class="materias" style="margin-left: 0px;">Materias que he cursado:</h2></div>
 			<div class="row">
-				<div class="col-sm-6 materias" style="padding-left: 40px;"> 
+				<div class="col-sm-6 materias"> 
 				 <ul>
 				 	<li>201520_DERE1300_05 - CONSTITUCION Y DEMOCRACIA</li>
 				 	<li>201520_FISI1004A_01 - GRANDES IDEAS DE LA FISICA</li>
@@ -142,7 +144,7 @@
 				 	
 				 </style>
 				</div>
-				<div class="col-sm-6 materias" style="padding-left: 40px;"> 
+				<div class="col-sm-6 materias"> 
 				<ul>
 					<li>201620_MATE1106_01 - ALGEBRA LINEAL 1 (HONORES)</li>
 					<li>201710_FISI1028_43 - FISICA II</li>
@@ -169,9 +171,9 @@
 			</div>
 				</div>
 			
-			<div><h2 style="margin-left: 0px; padding-left: 40px;">Materias que estoy cursando ahora:</h2></div>
+			<div><h2 class="materias" style="margin-left: 0px;">Materias que estoy cursando ahora:</h2></div>
 			<div>
-				<div class="row"><div class="col-sm-6 materias" style="padding-left: 40px;"> 
+				<div class="row"><div class="col-sm-6 materias"> 
 				 <ul >
 				 	<li>201810_DEPO1224_02 - DEFENSA PERSONAL</li>
 				 	<li>201810_ISIS3204_01 - INFRAESTRUCTURA COMUNICACIONES</li>
@@ -189,15 +191,15 @@
 				
 			</div>
 
-			<div class="container-fluid centrar" id="pro"><h2 style="margin-left: 0px; margin-top: 30px">Proyectos en los que he participado</h2></div>
+			<div class="container-fluid centrar" id="pro"><h2 style="margin-left: 0px; margin-top: 30px; margin-bottom: 40px;">Proyectos en los que he participado</h2></div>
 			
 			
 
-				<div class="img-paseo proyecto container-fluid" >
+				<div class="img-paseo img-pro proyecto container-fluid" >
 					<div class="row diferente">
 					<h1 style="margin-top: 65px; ">Paseos Ecologicos</h1>
 					</div >
-					<div style="text-align: center; margin-bottom: 6px;"><div  class="btn btn-info">Ver más</div><div class="descripcion">
+					<div class="centrar" style="margin-bottom: 6px;"><div  class="btn btn-info">Ver más</div><div class="descripcion">
 							Aplicación web creada para el curso Desarrollo de Software en Equipo.<br> Creada durante el primer semestre del año 2017.
 						</div></div>
 						
@@ -205,32 +207,32 @@
 					</div>
 				</div>
 				
-				<div class="img-festivAndes proyecto container-fluid">
+				<div class="img-festivAndes img-pro proyecto container-fluid">
 					<div class="row diferente">
 					<h1 style="margin-top: 65px; ">FestivAndes</h1>
 					</div>
-					<div style="text-align: center; margin-bottom: 6px;"><div class="btn btn-info">Ver más</div><div class="descripcion">Aplicación creada para el curso Sistemas transaccionales. <br>Desarrollada durante el primer semestre del año 2017. </div>
+					<div  class="centrar" margin-bottom: 6px;"><div class="btn btn-info">Ver más</div><div class="descripcion">Aplicación creada para el curso Sistemas transaccionales. <br>Desarrollada durante el primer semestre del año 2017. </div>
 					</div></div>
 				
 						
 						
 					
 				
-				<div class="img-minas proyecto container-fluid" >
+				<div class="img-minas img-pro proyecto container-fluid" >
 					<div class="row diferente">
 					<h1 style="margin-top: 65px;">Sistema de minas</h1>
 					</div>
-					<div style="text-align: center; margin-bottom: 6px;"><div  class="btn btn-info">Ver más</div>
+					<div class="centrar" style="margin-bottom: 6px;"><div  class="btn btn-info">Ver más</div>
 				<div class="descripcion">Aplicación de IoT creada para el curso Arquitectura y Diseño de Software. Desarrolada durante el segundo semestre de 2017.</div></div>
 						
 						
 				
 				</div>
-				<div class="img-2pds proyecto container-fluid" >
+				<div class="img-2pds img-pro proyecto container-fluid" >
 					<div class="row diferente">
-					<h1  style="margin-top: 50px;">2PDS</h1><h3 >Pattern Porgramming for Diagnostical Solutions</h3>
+					<h1  style="margin-top: 50px;">2PDS</h1><h3 class="centrar">Pattern Porgramming for Diagnostical Solutions</h3>
 					</div>
-					<div style="text-align: center; margin-bottom: 6px;"><div class="btn btn-info">Ver más</div><div class="descripcion">Aplicacion desarrollada para el proyecto de mitad de carrera.<br> Es un sistema de apoyo de decisiones para diagnosticos medicos basado en inteligencia artifical. </div>
+					<div class="centrar" style="margin-bottom: 6px;"><div class="btn btn-info">Ver más</div><div class="descripcion">Aplicacion desarrollada para el proyecto de mitad de carrera.<br> Es un sistema de apoyo de decisiones para diagnosticos medicos basado en inteligencia artifical. </div>
 				
 				</div></div>
 						
@@ -249,7 +251,7 @@
 			</ul></p></div>
 			<div class="row">
 				<div  class="col-sm-5">
-					<img style="margin-left: 40px; border:10px double white; background-color: black; padding:2px;" src="images/maratones.jpg" alt="">
+					<img style="margin-left: 40px; border:10px double white; background-color: black; padding:2px;" src="images/maratones.jpg" alt="imagen de mi equipo de maratones de programacion">
 				</div>
 			</div>
 
@@ -261,144 +263,12 @@
 			<br>
 			<br>
 			
-			<style>
-* {
-    box-sizing: border-box;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #848484;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-/* Container around content */
-.container2 {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-
-/* The circles on the timeline */
-.container2::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-    left: 0;
-}
-
-/* Place the container to the right */
-.right {
-    left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid #85C1E9  ;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #85C1E9  ;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid #85C1E9  ;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #85C1E9   transparent #85C1E9  ;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-    left: -16px;
-}
-
-/* The actual content */
-.content {
-    padding: 20px 30px;
-    background-color: #85C1E9  ;
-    position: relative;
-    border-radius: 6px;
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media all and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-    left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-    left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-    left: 0%;
-  }
-}
-</style>
-</head>
-<body>
-
+			
 <div class="timeline" >
   <div class="container2 left">
     <div class="content">
     	<div class="row">
-    		<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/SFE.png" alt="" style="max-height: 120px; max-height: 120px"></div>
+    		<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/SFE.png" alt="escudo de independiente santa fe" class="iconoequip"></div>
     		<div class="col-sm-11"><h2>2011-2012</h2>
       <p>Escuela de formacion deportiva de Independiente Santa fe. Participacion el liga de futbol de Bogotá, Campeon de Copa AKT.</p></div>
     	</div>
@@ -408,7 +278,7 @@
   <div class="container2 right">
     <div class="content">
     	<div class="row">
-    		<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/SFE.png" alt="" style="max-height: 120px; max-height: 120px"></div>
+    		<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/SFE.png" alt="escudo de independiente santa fe" class="iconoequip"></div>
     		<div class="col-sm-11"><h2>2013</h2>
       <p>Divisiones menores de Independiente Santa Fe. Participación en liga de futbol de Bogota categoria elite. 3er puesto torneo Sur Oriente. Campeon Copa Navidad de la liga de futbol de Bogotá.</p></div>
     	</div>
@@ -418,7 +288,7 @@
   <div class="container2 left">
     <div class="content">
     	<div class="row">
-    		<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/SFE.png" alt="" style="max-height: 120px; max-height: 120px"></div>
+    		<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/SFE.png" alt="escudo de independiente santa fe" class="iconoequip"></div>
     		<div class="col-sm-11"><h2>2014</h2>
       <p>Divisiones menores de Santa Fe. Subcampeon liga de futbol de Bogota 1er Semestre. SubCampeon liga de futbol de Bogota 2do semestre. Campeon Torneo Pijitas. Subcampeon Torneo La Gaitana</p></div>
     	</div>
@@ -429,7 +299,7 @@
     <div class="content">
      
 	<div class="row">
-	<div class="col-sm-1"> <img src="http://www.colombiasoccercup.com/home/wp-content/uploads/freshizer/1a3035e20baa09754a6f5b80cc1f97c1_Logo-Estrella-roja-PNG-270-270-c-100.png" alt="" style="max-height: 120px; max-height: 120px"></div> 
+	<div class="col-sm-1"> <img src="http://www.colombiasoccercup.com/home/wp-content/uploads/freshizer/1a3035e20baa09754a6f5b80cc1f97c1_Logo-Estrella-roja-PNG-270-270-c-100.png" alt="escudo de estrella roja" class="iconoequip"></div> 
 	<div class="col-sm-11"><h2>2015</h2>
       <p>Participacion Torneo Nacional Sub-17(RCN) con Club Estrella Roja. En el segundo semestre entré a la selección de mi universidad </p></div>
      
@@ -439,7 +309,7 @@
   <div class="container2 left">
     <div class="content">
       <div class="row">
-      	<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/University_of_Los_Andes_logo.svg" alt="" style="max-height: 120px; max-height: 120px"></div>
+      	<div class="col-sm-1"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/University_of_Los_Andes_logo.svg" alt="logo de la universidad de los andes" class="iconoequip"></div>
 
       	<div class="col-sm-11"><h2>2016-2018</h2>
       	 <p>Seleccion de Futbol de la Universidad de los Andes. Participacion en Torneo de Cerros y de ASCUN, logrando 3er puesto en cada uno de ellos.</p></div> </div>
@@ -453,17 +323,17 @@
   </div>
   
 </div>
-			<h1 style="text-align: center; margin-top: 60px;" id="gal">Galeria</h1>
+			<h1 class="centrar" style="margin-top: 60px;" id="gal">Galeria</h1>
 
 			<div id="slideShowImages">
-				 <img  src="images/f1.jpg" alt="Slide 2" />	
-   				 <img  src="images/f2.jpg" alt="Slide 2" />
-   				 <img  src="images/f3.jpg" alt="Slide 2" />
-   				 <img  src="images/f4.jpg" alt="Slide 2" />	
-   				 <img  src="images/f5.jpg" alt="Slide 2" />
-   				 <img  src="images/f6.jpg" alt="Slide 2" />
-   				 <img  src="images/f7.jpg" alt="Slide 2" />	
-   				 <img  src="images/f8.jpg" alt="Slide 2" />	
+				 <img  src="images/f1.jpg" alt="equipo de futbol de mi universidad" />	
+   				 <img  src="images/f2.jpg" alt=" foto de la delegacion de los andes en una maraton de programacion" />
+   				 <img  src="images/f3.jpg" alt="dos compañeros y yo levantando un trofeo" />
+   				 <img  src="images/f4.jpg" alt="mi equipo de futbol en santa fe" />	
+   				 <img  src="images/f5.jpg" alt="equipo de futbol de mi universidad" />
+   				 <img  src="images/f6.jpg" alt="equipo de futbol de mi universidad" />
+   				 <img  src="images/f7.jpg" alt="equipo de futbol de mi universidad" />	
+   				 <img  src="images/f8.jpg" alt="equipo de futbol de mi universidad" />	
   </div>  
 <script src='js/main.js'></script>
 	</body>
