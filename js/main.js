@@ -1,7 +1,7 @@
 
 "use strict";
 
-
+ /*eslint-env jquery*/
 function main(){
 //el id de la galeria
 var divId = "slideShowImages";
