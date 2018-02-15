@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Este proyecto tiene como objetivo crear mi pagina web personal (Juan Diego Chaves Sanguino). En ella se encontrara mi información adacemica y personal, gustos. Contiene información acerca de mis materias, actividades extracurriculares y vida deportiva. La hago como una entrega para mi clase de Programacion con Tecnologias Web - ISIS3710(http://johnguerra.co/classes/webDevelopment_spring_2018/). Es desarrollado por mi, Juan Diego Chaves.
+Este proyecto tiene como objetivo crear mi pagina web personal (Juan Diego Chaves Sanguino). En ella se encontrara mi información adacemica y personal, gustos y demas. Contiene información acerca de mis materias, actividades extracurriculares y vida deportiva. La hago como una entrega para mi clase de Programacion con Tecnologias Web - ISIS3710(http://johnguerra.co/classes/webDevelopment_spring_2018/). Es desarrollado por mi, Juan Diego Chaves.
 
 ## Tecnologias
 
