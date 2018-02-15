@@ -129,6 +129,8 @@ $(".options > a").click(function(e) {
 });
 $("li > a").click(function(e) { 
     e.preventDefault(); 
+    $(".active").removeClass("active");
+    $(this).parent().addClass("active");
     goToByScroll(this.id);           
 });
 $('.btn-info').on('click', function() {
