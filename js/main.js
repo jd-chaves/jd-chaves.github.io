@@ -1,9 +1,13 @@
-var scrolled=0;
+
+"use strict";
+
+
 function main(){
+	var scrolled=0;
+var slideShowId = null;
 var divId = "slideShowImages";
 var tiempo = 3000;
 var fade = 40;
-var slideShowId = null;
 var fadeActiveSlidesID = null;
 var divObj = (document.getElementById(divId) ? document.getElementById(divId) : null);
 //verificar que no sea null
@@ -46,11 +50,11 @@ console.log("altoMax: "+_altoMax+"; anchoMax"+_anchoMax);
 
 
 function startSlideShow() {
-    slideShowID = setInterval(transition, tiempo);                
+    slideShowId = setInterval(transition, tiempo);                
   }
 
 function haltSlideShow() {
-  clearInterval(slideShowID);   
+  clearInterval(slideShowId);   
 }
 
 function transition(){
