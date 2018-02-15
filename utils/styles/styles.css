@@ -1,13 +1,15 @@
 
+/*hace el nav cuadrado */
 nav{
 	border-radius : 0 !important;
 	margin: 0px;
 }
-
+/*fondo */
 #fondo{
 	position: fixed; 
 	opacity: 0.3
 }
+/* cada elemento del menu principal*/
 .cosa-menu{
 	padding : 20px; 
 	margin: 0px;
@@ -18,14 +20,16 @@ h3{
 	text-align: justify; 
 }
 
-
+/* icono de  equipo del timeline*/
 .iconoequip{
 	max-height: 120px;
 	max-width: 120px;
 }
+/* lista de materias */
 .materias{
 padding-left: 40px;
 }
+/*imagen del panel de inicio */
 .image {
 	position: relative;
 	bottom: 20px;
@@ -34,7 +38,7 @@ padding-left: 40px;
   	background-position: center;
   	height: 850px;
 }
-
+/*boton empezar */
 .options{
 	display: inline-block;
 	border: 3px solid black;
@@ -43,6 +47,7 @@ padding-left: 40px;
 	
 	
 }
+/*centrar en la mitad del contenedor*/
 .container-fluid.centrado{
 	   	position: absolute;
         top: 50%;
@@ -51,18 +56,19 @@ padding-left: 40px;
         transform: translate(-50%, -50%)
     }
 
+/*boton empezar */
 .options > a{
 	color: black;
 	font-size: 28px;
 }
-
+/*centrar texto */
 .centrar{
 	text-align: center;
 	margin-bottom: 10px;
 
 }
 
-
+/*datos personales en seccion quien soy */
 .row.datos{
 	
 	margin-left:40px;
@@ -74,10 +80,11 @@ div > h2{
 div > p{
 	margin-left: 100px;
 }
-
+/* display de cada proyecto*/
 .proyecto{
 	display: block;
 }
+/*titulo de los proyectos */
 .proyecto > h1{
 	text-align: center;
 }
@@ -85,32 +92,38 @@ div > p{
 p{
 	text-align: justify;
 }
+/*Cada uno de los proyectos */
 .row.diferente{
 	align-items: center;
 	text-align: center;
 	margin: 20px 0px;
 	color: white;
 }
+
 .active {
   background-color: #333333;
   color: whitesmoke;
 }
+/* "Chaves" en el menu principal*/
 #logo{
 	font-family: "Great Vibes", cursive;
 	font-size: 30px;
 }
+/*descripcion de los proyectos */
 .descripcion{
 	color: white;
 }
+/* descripcion de los proyectos*/
 .descripcion > p{
 	padding: 8px;
-	background-color: grey;
 }
 
+/*separador con logo en el medio*/
 hr.style2 {
 	border-top: 4px solid #8c8b8b;
 	text-align: center;
 }
+/*separador con logo en el medio */
 hr.style2:after {
 	content: '§';
 	display: inline-block;
@@ -124,7 +137,7 @@ hr.style2:after {
 	-moz-transform: rotate(60deg);
 	transform: rotate(60deg);
 }
-
+/* Imagenes de los proyectos*/
 .img-pro {
 	position: relative;
 	bottom: 20px;
@@ -134,22 +147,28 @@ hr.style2:after {
   	border : 2px solid black;
 }
 
+/*imagen de fondo 2PDS */
 .img-2pds{
 	  	background-image: url("https://vignette.wikia.nocookie.net/eswikia/images/2/27/Medicina.jpg/revision/latest?cb=20160830143330");
 }
+/*imagen de fondo de minas */
 .img-minas{
 	  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/39/112-1269_IMG.JPG");
 }
+/*imagen de fondo de festivandes */
 .img-festivAndes{
 	  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/eb/Mezipatra_2009_-_Homolution_party_1.jpg");
 }
+/* imagen de fondo de paseos*/
 .img-paseo{
 	  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fb/Parque_Ecologico_Loreto_y_Peña_Pobre_Arboles_2.JPG");
-
 }
+/*Cambiar modelo de caja de todos los elementos */
 * {
     box-sizing: border-box;
 }
+
+/* De aca en adelante es del timeline del tutorial de W3C Shool*/
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
