@@ -12,7 +12,8 @@ function main(){
   //para la transiciond de la galeria
   var fadeActiveSlidesID = null;
   //el elemento que tiene la galeria
-  var divObj = (document.getElementById(divId) ? document.getElementById(divId) : null);
+  /*Fabio Lopez: Se remueve comparación innecesaria, pues getEelemntById ya retorna null si no existe el elemento*/
+  var divObj = document.getElementById(divId);
   //arreglo de imagenes de la galeria
   var imgs = (divObj.querySelectorAll("img") ? divObj.querySelectorAll("img") : []);
   //valor del ancho de la imagen mas ancha
